@@ -9,11 +9,8 @@ Para depois inserir no carrinho
 Contexto:
 Dado que estou na página de seleção de produtos da EBAC-SHOP
 
-Cenário: Configurar produto campos obrigatorios preenchidos
-Quando eu selecionar a cor "Cor desejada"
-E selecionar o tamanho "Tamanho desejado"
-E inserir a "Quantidade desejada"
-E clicar no botão "Comprar"
+Cenário: Configurar produto nos campos obrigatorios preenchidos
+Quando escolher <tamanho>, <cor> e <quantidade> e clicar no botão "Comprar"
 Então o produto deve ser adicionado ao meu carrinho de compras
 
 Cenário: Tentar adicionar produto sem preencher todos os campos obrigatórios
